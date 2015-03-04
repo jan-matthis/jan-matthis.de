@@ -372,10 +372,11 @@ $button-size: 1.5rem;
 
 /* Author sidebar */
 .article-author-side {
-	display: none;
-	.bio-photo {
-		max-width: 110px;
-		@include rounded(150px);
+	/* display: none; */
+ 	.bio-photo {
+		margin-top: 30px;
+		max-width: 215px;
+		@include rounded(215px);
 	}
 	@media #{$small} {
 		display: block;
@@ -386,25 +387,35 @@ $button-size: 1.5rem;
 		p,
 		.author-social {
 			display: block;
-			max-width: 125px;
+			max-width: 215px;
 		}
 		h3 {
-			margin-top: 10px;
-			margin-bottom: 10px;
+			margin-top: 30px;
+			margin-bottom: 8px;
 		}
-		p {
+		p,a {
 			margin-bottom: 20px;
 		}
 		.author-social {
-			margin-bottom: 5px;
+			margin-bottom: 8px;
 		}
 	}
 	@media #{$large} {
 		h3,
 		.bio-photo,
-		p,
+		p
 		.author-social {
-			max-width: 150px;
+			max-width: 215px;
+		}
+		h3 {
+			margin-top: 30px;
+			margin-bottom: 8px;
+		}
+		p,a {
+			margin-bottom: 20px;
+		}
+		.author-social {
+			margin-bottom: 10px;
 		}
 	}
 	@media #{$x-large} {
@@ -416,9 +427,6 @@ $button-size: 1.5rem;
 /* Author module - mobile only */
 .article-author-bottom {
 	margin-bottom: 1em;
-	@media #{$small} {
-		display: none;
-	}
 	.bio-photo {
 		float: left;
 		margin-right: 25px;

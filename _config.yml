@@ -1,6 +1,6 @@
 # Site wide configuration
 
-title:            Site Title
+title:            Jan-Matthis Lückmann
 locale:           en_US
 url:              
 
@@ -26,23 +26,23 @@ kramdown:
 
 # Site owner
 owner:
-  name: Your Name
-  avatar: bio-photo.jpg
-  bio: "Describe your self."
-  email: 
+  name: Jan-Matthis Lückmann
+  avatar: profile.png
+  bio: "<a href='http://www.kyb.tuebingen.mpg.de/research/rg/mackegroup.html' target='_blank'>PhD Student in Neuroscience <i class='fa fa-external-link' style='margin-left: 2px; color:#777; font-size: 11px'></i></a>"
+  email: hello@jan-matthis.de
   disqus-shortname: 
-  twitter: #username
-  facebook: #username
+  twitter: janmatthis
+  facebook: jan-matthis
   google:
     plus: #username
-    analytics: 
+    analytics: UA-59196530-1
     verify: 
     ad-client: 
     ad-slot: 
   bing-verify: 
   github: #username
   stackoverflow: #http://stackoverflow.com/users/123456/username
-  linkedin: #username
+  linkedin: janmatthis
   instagram: #username
   lastfm: #username
   tumblr: #username
