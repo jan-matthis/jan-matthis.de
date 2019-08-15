@@ -28,11 +28,11 @@ kramdown:
 owner:
   name: Jan-Matthis Lückmann
   avatar: profile.png
-  bio: "<a href='http://www.mackelab.org' target='_blank'>PhD Student in Neuroscience <i class='fa fa-external-link' style='margin-left: 2px; color:#777; font-size: 11px'></i></a>"
+  bio: "<a href='https://www.ei.tum.de/en/cne/home/' target='_blank'>PhD Student in Neuroscience <i class='fa fa-external-link' style='margin-left: 2px; color:#777; font-size: 11px'></i></a>"
   email: hello@jan-matthis.de
   disqus-shortname: 
   twitter: janmatthis
-  facebook: jan-matthis
+  facebook: janmatthis.l
   google:
     plus: #username
     analytics: UA-59196530-1
